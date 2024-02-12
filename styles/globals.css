@@ -12,3 +12,15 @@ input:focus,
 textarea:focus {
   @apply border-blue-900;
 }
+
+h1 {
+  @apply text-blue-900 mb-2 text-xl;
+}
+
+label {
+  @apply text-blue-900;
+}
+
+.btn-primary {
+  @apply bg-blue-900 text-white px-4 py-1 rounded-md;
+}
