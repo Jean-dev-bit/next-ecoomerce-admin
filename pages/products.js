@@ -28,15 +28,6 @@ export default function Products() {
           </tr>
         </thead>
         <tbody>
-          {/* {isLoading && (
-            <tr>
-              <td colSpan={2}>
-                <div className="py-4">
-                  <Spinner fullWidth={true} />
-                </div>
-              </td>
-            </tr>
-          )} */}
           {products.map((product) => (
             <tr key={product._id}>
               <td>{product.title}</td>
